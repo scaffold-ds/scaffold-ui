@@ -27,5 +27,3 @@ export * from './components/index';
 export * from './hooks/index';
 export * from './layout/index';
 export * from './primitives/index';
-export * from './tokens/index';
-
