@@ -1,6 +1,6 @@
 {
   "name": "scaffold-ui",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Let's create a free-to-premium suite of modern web components and templates, building responsive designs and seamless user experiences.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
