@@ -37,3 +37,4 @@ type ElementPropsWithout<
 type RemovedProps = 'asChild' | 'defaultChecked' | 'defaultValue' | 'color'
 
 export type { ElementPropsAs, ElementPropsWithout, RemovedProps }
+

@@ -128,3 +128,4 @@ interface BaseLayoutProps extends HTMLAttributes<HTMLElement> {
 type BaseProps = BaseLayoutProps & (BaseDivProps | BaseSpanProps);
 
 export type { BaseProps };
+

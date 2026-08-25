@@ -23,7 +23,6 @@
  */
 
 import { forwardRef, Ref } from "react";
-import { Slot } from "@radix-ui/react-slot";
 import { cn } from "../utils/classNames";
 import { resolveEnumClass, resolveResponsiveClass } from "./core/responsive-engine";
 import type { FlexProps } from "./props/flex-props";
@@ -33,7 +32,6 @@ type DefaultElement = HTMLDivElement;
 const FlexLayout = forwardRef<DefaultElement, FlexProps>(
     (
         {
-            asChild = false,
             as: Tag = "div",
             className,
             display,
@@ -83,7 +81,7 @@ const FlexLayout = forwardRef<DefaultElement, FlexProps>(
         },
         ref: Ref<DefaultElement>
     ) => {
-        const FlexElement = asChild ? Slot : Tag;
+        const FlexElement = Tag;
 
         const classes = [
             "flex",
@@ -151,3 +149,4 @@ const FlexLayout = forwardRef<DefaultElement, FlexProps>(
 FlexLayout.displayName = "FlexLayout";
 
 export default FlexLayout;
+

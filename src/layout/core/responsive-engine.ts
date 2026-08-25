@@ -55,3 +55,4 @@ export const resolveEnumClass = <T extends string>(
         return bp ? `${bp}:${val}` : `${val}`;
     });
 };
+

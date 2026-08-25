@@ -41,3 +41,4 @@ type BoxProps = BaseProps & {
 };
 
 export type { BoxProps };
+

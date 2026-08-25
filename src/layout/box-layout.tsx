@@ -23,7 +23,6 @@
  */
 
 import { forwardRef, Ref } from "react";
-import { Slot } from "@radix-ui/react-slot";
 import { cn } from "../utils/classNames";
 import { resolveEnumClass, resolveResponsiveClass } from "./core/responsive-engine";
 import { BoxProps } from "./props/box-props";
@@ -33,7 +32,6 @@ type DefaultElement = HTMLDivElement;
 const BoxLayout = forwardRef<DefaultElement, BoxProps>(
     (
         {
-            asChild = false,
             as: Tag = "div",
             className,
             display,
@@ -83,7 +81,7 @@ const BoxLayout = forwardRef<DefaultElement, BoxProps>(
         },
         ref: Ref<DefaultElement>
     ) => {
-        const BoxElement = asChild ? Slot : Tag;
+        const BoxElement = Tag;
 
         const classes = [
             "block",
@@ -151,3 +149,4 @@ const BoxLayout = forwardRef<DefaultElement, BoxProps>(
 BoxLayout.displayName = "BoxLayout";
 
 export default BoxLayout;
+
