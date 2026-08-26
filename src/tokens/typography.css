@@ -1,0 +1,195 @@
+@layer utilities {
+    .text-heading-72 {
+        font-family: var(--font-geist-sans);
+        font-size: 72px;
+        line-height: 72px;
+        letter-spacing: -4.32px;
+    }
+
+    .text-heading-64 {
+        font-family: var(--font-sans);
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -3.84px;
+    }
+
+    .text-heading-56 {
+        font-family: var(--font-sans);
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -3.36px;
+    }
+
+    .text-heading-48 {
+        font-family: var(--font-sans);
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -2.88px;
+    }
+
+    .text-heading-40 {
+        font-family: var(--font-sans);
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -2.4px;
+    }
+
+    .text-heading-32 {
+        font-family: var(--font-sans);
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -1.28px;
+    }
+
+    .text-heading-24 {
+        font-family: var(--font-sans);
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: -0.96px;
+    }
+
+    .text-heading-20 {
+        font-family: var(--font-geist-mono);
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: -0.4px;
+    }
+
+    .text-heading-18 {
+        font-family: var(--font-geist-mono);
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: -0.4px;
+    }
+
+    .text-heading-16 {
+        font-family: var(--font-sans);
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.32px;
+    }
+
+    .text-heading-14 {
+        font-family: var(--font-sans);
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.28px;
+    }
+
+    .text-button-16 {
+        font-family: var(--font-geist-mono);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .text-button-14 {
+        font-family: var(--font-geist-mono);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .text-button-12 {
+        font-family: var(--font-geist-mono);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+
+    .text-label-20 {
+        font-family: var(--font-sans);
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .text-label-18 {
+        font-family: var(--font-sans);
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .text-label-16 {
+        font-family: var(--font-sans);
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .text-label-14 {
+        font-family: var(--font-sans);
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .text-label-14-mono {
+        font-family: var(--font-geist-mono);
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .text-label-13 {
+        font-family: var(--font-sans);
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .text-label-13-mono {
+        font-family: var(--font-geist-mono);
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .text-label-12 {
+        font-family: var(--font-sans);
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .text-label-12-mono {
+        font-family: var(--font-geist-mono);
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .text-copy-24 {
+        font-family: var(--font-sans);
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .text-copy-20 {
+        font-family: var(--font-sans);
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+    .text-copy-18 {
+        font-family: var(--font-sans);
+        font-size: 18px;
+        line-height: 1.56em;
+    }
+
+    .text-copy-16 {
+        font-family: var(--font-sans);
+        font-size: 16px;
+        line-height: 1.48em;
+    }
+
+    .text-copy-14 {
+        font-family: var(--font-sans);
+        font-size: 14px;
+        line-height: 1.625em;
+    }
+
+    .text-copy-13 {
+        font-family: var(--font-sans);
+        font-size: 13px;
+        line-height: 1.625em;
+    }
+
+    .text-copy-13-mono {
+        font-family: var(--font-geist-mono);
+        font-size: 13px;
+        line-height: 1.625em;
+    }
+}

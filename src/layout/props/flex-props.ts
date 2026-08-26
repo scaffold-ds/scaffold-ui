@@ -40,5 +40,4 @@ type FlexProps = BaseProps & {
     align?: ResponsiveValue<AlignValue>;
 };
 
-export type { FlexProps };
-
+export type { FlexProps }

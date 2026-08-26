@@ -1,0 +1,8 @@
+:root {
+    --sc-radius-none: 0;
+    --sc-radius-small: 0.25rem;
+    --sc-radius-medium: 0.375rem;
+    --sc-radius-large: 0.5rem;
+    --sc-radius-extraLarge: 0.75rem;
+    --sc-radius-full: 9999px;
+}

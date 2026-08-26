@@ -1,6 +1,6 @@
-/** 
+/**
  * MIT License
- * 
+ *
  * Copyright (c) 2025-2026 Scaffold UI
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,4 +22,4 @@
  * SOFTWARE.
  */
 
-export { };
+export { Button, type ButtonProps } from "./button/button";
