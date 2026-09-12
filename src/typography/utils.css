@@ -1,6 +1,6 @@
 @layer utilities {
     .text-heading-72 {
-        font-family: var(--font-geist-sans);
+        font-family: var(--font-sans);
         font-size: 72px;
         line-height: 72px;
         letter-spacing: -4.32px;

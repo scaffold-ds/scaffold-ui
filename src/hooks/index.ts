@@ -23,4 +23,3 @@
  */
 
 export * from "./use-mobile";
-

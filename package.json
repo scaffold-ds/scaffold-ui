@@ -1,6 +1,7 @@
 {
-    "name": "scaffold-ui",
+    "name": "scaffold-ds",
     "version": "0.0.1",
+    "author": "",
     "description": "Nothing.",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
@@ -18,18 +19,25 @@
         "storybook": "storybook dev -p 6006",
         "build-storybook": "storybook build"
     },
-    "keywords": [],
-    "author": "",
+    "keywords": [
+        "react",
+        "react-component",
+        "scaffold",
+        "ui",
+        "component",
+        "library"
+    ],
     "license": "ISC",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/scaffoldui/scaffold-ui.git"
+        "url": "git+https://github.com/scaffold-ds/scaffold-ui.git"
     },
     "bugs": {
-        "url": "https://github.com/scaffoldui/scaffold-ui/issues"
+        "url": "https://github.com/scaffold-ds/scaffold-ui/issues"
     },
-    "homepage": "https://github.com/scaffoldui/scaffold-ui#readme",
+    "homepage": "https://scaffold-ui.com",
     "dependencies": {
+        "@base-ui/react": "^1.8.0",
         "@hookform/resolvers": "^5.0.1",
         "@tanstack/react-table": "^9.1.2",
         "autoprefixer": "^10.4.21",

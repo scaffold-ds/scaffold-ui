@@ -1,0 +1,10 @@
+:root {
+    --size-0: 0;
+    --size-full: 100%;
+    --size-screen: 100vw;
+    --size-screen-height: 100vh;
+
+    --size-min: min-content;
+    --size-max: max-content;
+    --size-fit: fit-content;
+}

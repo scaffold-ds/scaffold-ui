@@ -1,4 +1,8 @@
-.sc-button {
+/* -------------------------------------------------------------------------- */
+/* Base                                                                       */
+/* -------------------------------------------------------------------------- */
+
+.button {
     display: inline-flex;
     flex-shrink: 0;
     align-items: center;
@@ -25,7 +29,7 @@
 /* Focus                                                                      */
 /* -------------------------------------------------------------------------- */
 
-.sc-button:focus-visible {
+.button:focus-visible {
     outline: 2px solid var(--scaffold-focus-ring);
     outline-offset: 2px;
 }
@@ -34,7 +38,7 @@
 /* Disabled                                                                   */
 /* -------------------------------------------------------------------------- */
 
-.sc-button:disabled {
+.button:disabled {
     pointer-events: none;
     cursor: default;
     opacity: 0.5;
@@ -44,7 +48,7 @@
 /* Icons                                                                      */
 /* -------------------------------------------------------------------------- */
 
-.sc-button > svg {
+.button > svg {
     flex-shrink: 0;
     pointer-events: none;
 }
@@ -53,7 +57,7 @@
 /* Width                                                                      */
 /* -------------------------------------------------------------------------- */
 
-.sc-button[data-wide] {
+.button[data-wide] {
     width: 100%;
 }
 
@@ -61,198 +65,186 @@
 /* Radius                                                                     */
 /* -------------------------------------------------------------------------- */
 
-.sc-button[data-radius="none"] {
-    border-radius: var(--sc-radius-none);
+.button[data-radius="none"] {
+    border-radius: var(--radius-none);
 }
 
-.sc-button[data-radius="small"] {
-    border-radius: var(--sc-radius-small);
+.button[data-radius="small"] {
+    border-radius: var(--radius-small);
 }
 
-.sc-button[data-radius="medium"] {
-    border-radius: var(--sc-radius-medium);
+.button[data-radius="medium"] {
+    border-radius: var(--radius-medium);
 }
 
-.sc-button[data-radius="large"] {
-    border-radius: var(--sc-radius-large);
+.button[data-radius="large"] {
+    border-radius: var(--radius-large);
 }
 
-.sc-button[data-radius="extraLarge"] {
-    border-radius: var(--sc-radius-extra-large);
+.button[data-radius="extraLarge"] {
+    border-radius: var(--radius-extra-large);
 }
 
-.sc-button[data-radius="full"] {
-    border-radius: var(--sc-radius-full);
+.button[data-radius="full"] {
+    border-radius: var(--radius-full);
 }
 
 /* -------------------------------------------------------------------------- */
 /* Size                                                                       */
 /* -------------------------------------------------------------------------- */
 
-.sc-button[data-size="large"] {
-    height: 2.5rem;
-    padding-inline: 1.125rem;
-    gap: 0.75rem;
-    font-size: var(--scaffold-button-font-size-large);
+.button[data-size="large"] {
+    height: calc(var(--space-unit) * 10); /* 2.5rem - 40px */
+    padding-inline: calc(var(--space-unit) * 4.5); /* 1.125rem - 18px */
+    gap: calc(var(--space-unit) * 3); /* 0.75rem - 12px */
+    font-family: var(--type-button-16-family);
+    font-size: var(--type-button-16-size); /* 16px */
+    font-weight: var(--type-button-16-weight);
+    line-height: var(--type-button-16-line-height);
 }
 
-.sc-button[data-size="medium"] {
-    height: 2.25rem;
-    padding-inline: 1.125rem;
-    gap: 0.5rem;
-    font-size: var(--scaffold-button-font-size-medium);
+.button[data-size="medium"] {
+    height: calc(var(--space-unit) * 9); /* 2.25rem - 36px */
+    padding-inline: calc(var(--space-unit) * 4.5); /* 1.125rem - 18px */
+    gap: calc(var(--space-unit) * 2); /* 0.5rem - 8px */
+    font-family: var(--type-button-14-family);
+    font-size: var(--type-button-14-size); /* 14px */
+    font-weight: var(--type-button-14-weight);
+    line-height: var(--type-button-14-line-height);
 }
 
-.sc-button[data-size="small"] {
-    height: 2rem;
-    padding-inline: 0.75rem;
-    gap: 0.375rem;
-    font-size: var(--scaffold-button-font-size-small);
+.button[data-size="small"] {
+    height: calc(var(--space-unit) * 8); /* 2rem - 32px */
+    padding-inline: calc(var(--space-unit) * 3); /* 0.75rem - 12px */
+    gap: calc(var(--space-unit) * 1.5); /* 0.375 - 6px */
+    font-family: var(--type-button-12-family);
+    font-size: var(--type-button-12-size); /* 12px */
+    font-weight: var(--type-button-12-weight);
+    line-height: var(--type-button-12-line-height);
 }
 
 /* -------------------------------------------------------------------------- */
 /* Icon Button                                                                */
 /* -------------------------------------------------------------------------- */
 
-.sc-button[data-icon] {
+.button[data-icon] {
     padding-inline: 0;
 }
 
-.sc-button[data-icon][data-size="large"] {
-    width: 2.5rem;
+.button[data-icon][data-size="large"] {
+    width: calc(var(--space-unit) * 10); /* 2.5rem - 40px */
 }
 
-.sc-button[data-icon][data-size="medium"] {
-    width: 2.25rem;
+.button[data-icon][data-size="medium"] {
+    width: calc(var(--space-unit * 9)); /* 2.25rem - 36px */
 }
 
-.sc-button[data-icon][data-size="small"] {
-    width: 2rem;
+.button[data-icon][data-size="small"] {
+    width: calc(var(--space-unit) * 8); /* 2rem - 32px */
 }
 
 /* -------------------------------------------------------------------------- */
 /* Icon Sizes                                                                 */
 /* -------------------------------------------------------------------------- */
 
-.sc-button[data-size="large"] > svg {
-    width: 1rem;
-    height: 1rem;
+.button[data-size="large"] > svg {
+    width: var(--type-button-16-size); /* 16px */
+    height: var(--type-button-16-size); /* 16px */
 }
 
-.sc-button[data-size="medium"] > svg {
-    width: 0.875rem;
-    height: 0.875rem;
+.button[data-size="medium"] > svg {
+    width: var(--type-button-14-size); /* 14px */
+    height: var(--type-button-14-size); /* 14px */
 }
 
-.sc-button[data-size="small"] > svg {
-    width: 0.75rem;
-    height: 0.75rem;
+.button[data-size="small"] > svg {
+    width: var(--type-button-12-size); /* 12px */
+    height: var(--type-button-12-size); /* 12px */
 }
 
 /* -------------------------------------------------------------------------- */
 /* Default                                                                    */
 /* -------------------------------------------------------------------------- */
 
-.sc-button[data-variant="default"] {
-    background-color: var(--scaffold-button-default-background);
-    color: var(--scaffold-button-default-foreground);
+.button[data-variant="default"] {
+    background-color: var(--color-primary);
+    color: var(--color-primary-foreground);
 }
 
-.sc-button[data-variant="default"]:hover {
-    background-color: var(--scaffold-button-default-background-hover);
-}
-
-.sc-button[data-variant="default"]:active {
-    background-color: var(--scaffold-button-default-background-active);
+.button[data-variant="default"]:hover, .button[data-variant="default"]:active {
+    background-color: var(--color-primary);
 }
 
 /* -------------------------------------------------------------------------- */
 /* Outline                                                                    */
 /* -------------------------------------------------------------------------- */
 
-.sc-button[data-variant="outline"] {
-    border: 1px solid var(--scaffold-button-outline-border);
-    background-color: var(--scaffold-button-outline-background);
-    color: var(--scaffold-button-outline-foreground);
+.button[data-variant="outline"] {
+    background-color: var(--color-surface);
+    color: var(--color-surface-foreground);
+    border: 1px solid var(--color-border);
 }
 
-.sc-button[data-variant="outline"]:hover {
-    background-color: var(--scaffold-button-outline-background-hover);
+.button[data-variant="outline"]:hover, .button[data-variant="outline"]:active {
+    background-color: var(--color-surface);
 }
 
-.sc-button[data-variant="outline"]:active {
-    background-color: var(--scaffold-button-outline-background-active);
-}
-
-.sc-button[data-variant="outline"] > svg {
-    color: var(--scaffold-button-outline-icon);
+.button[data-variant="outline"] > svg {
+    color: var(--color-surface-muted-foreground);
 }
 
 /* -------------------------------------------------------------------------- */
 /* Tonal                                                                      */
 /* -------------------------------------------------------------------------- */
 
-.sc-button[data-variant="tonal"] {
-    background-color: var(--scaffold-button-tonal-background);
-    color: var(--scaffold-button-tonal-foreground);
+.button[data-variant="tonal"] {
+    background-color: var(--color-secondary);
+    color: var(--color-secondary-foreground);
 }
 
-.sc-button[data-variant="tonal"]:hover {
-    background-color: var(--scaffold-button-tonal-background-hover);
-}
-
-.sc-button[data-variant="tonal"]:active {
-    background-color: var(--scaffold-button-tonal-background-active);
+.button[data-variant="tonal"]:hover, .button[data-variant="tonal"]:active {
+    background-color: var(--color-secondary);
 }
 
 /* -------------------------------------------------------------------------- */
 /* Text                                                                       */
 /* -------------------------------------------------------------------------- */
 
-.sc-button[data-variant="text"] {
+.button[data-variant="text"] {
     background-color: transparent;
-    color: var(--scaffold-button-text-foreground);
+    color: var(--color-tertiary-foreground);
 }
 
-.sc-button[data-variant="text"]:hover {
-    background-color: var(--scaffold-button-text-background-hover);
-}
-
-.sc-button[data-variant="text"]:active {
-    background-color: var(--scaffold-button-text-background-active);
+.button[data-variant="text"]:hover, .button[data-variant="text"]:active {
+    background-color: var(--color-tertiary);
 }
 
 /* -------------------------------------------------------------------------- */
 /* Elevated                                                                   */
 /* -------------------------------------------------------------------------- */
 
-.sc-button[data-variant="elevated"] {
-    background-color: var(--scaffold-button-elevated-background);
-    color: var(--scaffold-button-elevated-foreground);
-    box-shadow: var(--scaffold-button-elevated-shadow);
+.button[data-variant="elevated"] {
+    background-color: var(--color-quaternary);
+    color: var(--color-quaternary-foreground);
+    box-shadow: var(--shadow-extraSmall);
 }
 
-.sc-button[data-variant="elevated"]:hover {
-    background-color: var(--scaffold-button-elevated-background-hover);
-}
-
-.sc-button[data-variant="elevated"]:active {
-    background-color: var(--scaffold-button-elevated-background-active);
+.button[data-variant="elevated"]:hover, .button[data-variant="elevated"]:active {
+    background-color: var(--color-quaternary);
 }
 
 /* -------------------------------------------------------------------------- */
 /* Underline                                                                  */
 /* -------------------------------------------------------------------------- */
 
-.sc-button[data-variant="underline"] {
+.button[data-variant="underline"] {
     background-color: transparent;
-    color: var(--scaffold-button-underline-foreground);
-    text-decoration: none;
+    color: var(--color-foreground);
     text-underline-offset: 0.25rem;
+    text-decoration: none;
 }
 
-.sc-button[data-variant="underline"]:hover,
-.sc-button[data-variant="underline"]:active {
+.button[data-variant="underline"]:hover, .button[data-variant="underline"]:active {
     text-decoration: underline;
 }
 
@@ -260,56 +252,55 @@
 /* Error                                                                      */
 /* -------------------------------------------------------------------------- */
 
-.sc-button[data-variant="error"] {
-    background-color: var(--scaffold-button-error-background);
-    color: var(--scaffold-button-error-foreground);
+.button[data-variant="error"] {
+    background-color: var(--color-error);
+    color: var(--color-error-foreground);
 }
 
-.sc-button[data-variant="error"]:hover {
-    background-color: var(--scaffold-button-error-background-hover);
+.button[data-variant="error"]:hover {
+    background-color: var(--color-error);
 }
 
-.sc-button[data-variant="error"]:active {
-    background-color: var(--scaffold-button-error-background-active);
+.button[data-variant="error"]:active {
+    background-color: var(--color-error);
 }
 
 /* -------------------------------------------------------------------------- */
 /* Alert                                                                      */
 /* -------------------------------------------------------------------------- */
 
-.sc-button[data-variant="alert"] {
+.button[data-variant="alert"] {
     background-color: transparent;
-    color: var(--scaffold-button-alert-foreground);
+    color: var(--color-alert-foreground);
 }
 
-.sc-button[data-variant="alert"]:hover {
-    background-color: var(--scaffold-button-alert-background-hover);
+.button[data-variant="alert"]:hover {
+    background-color: var(--color-alert);
 }
 
-.sc-button[data-variant="alert"]:active {
-    background-color: var(--scaffold-button-alert-background-active);
+.button[data-variant="alert"]:active {
+    background-color: var(--color-alert);
 }
 
 /* -------------------------------------------------------------------------- */
 /* Loading                                                                    */
 /* -------------------------------------------------------------------------- */
 
-.sc-button[data-loading] {
+.button[data-loading] {
     cursor: wait;
 }
 
-.sc-button__spinner {
+.button-spinner {
     width: 1em;
     height: 1em;
-
-    animation: sc-button-spin 1s linear infinite;
+    animation: button-spin 1s linear infinite;
 }
 
-.sc-button__loading-content[data-hidden] {
+.button-loading-content[data-hidden] {
     visibility: hidden;
 }
 
-@keyframes sc-button-spin {
+@keyframes button-spin {
     to {
         transform: rotate(360deg);
     }

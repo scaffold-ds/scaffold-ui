@@ -1,6 +1,6 @@
-/** 
+/**
  * MIT License
- * 
+ *
  * Copyright (c) 2025-2026 Scaffold UI
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,8 +22,7 @@
  * SOFTWARE.
  */
 
-import './tailwind/theme.css';
-export * from './components/index';
-export * from './hooks/index';
-export * from './layout/index';
-export * from './primitives/index';
+import "./tokens/index.css";
+export * from "./react/index";
+export * from "./hooks/index";
+export * from "./primitives/index";

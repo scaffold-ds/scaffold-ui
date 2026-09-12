@@ -1,7 +1,7 @@
 import { forwardRef, type ReactNode } from "react";
 import { Loader2 } from "lucide-react";
 import "./button.css";
-import { ButtonPrimitive, ButtonPrimitiveProps } from "@/src/foundation";
+import { ButtonPrimitive, ButtonPrimitiveProps } from "@/src/primitives";
 import type { ButtonVariant, ButtonSize, ButtonRadius } from "./button.types";
 
 interface ButtonProps extends Omit<ButtonPrimitiveProps, "children" | "className"> {
@@ -56,7 +56,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
                 {icon ? (
                     loading ? (
                         <Loader2
-                            className="sc-button__spinner"
+                            className="button-spinner"
                             aria-hidden="true"
                         />
                     ) : (
@@ -65,14 +65,14 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
                 ) : loading ? (
                     <>
                         <Loader2
-                            className="sc-button__spinner"
+                            className="button-spinner"
                             aria-hidden="true"
                         />
 
                         <span
                             className={
                                 !loadingText
-                                    ? "sc-button__loading-content"
+                                    ? "button-loading-content"
                                     : undefined
                             }
                         >
