@@ -1,9 +1,0 @@
-{
-    "name": "@scaffold-ds/react",
-    "exports": {
-        ".": {
-            "types": "./src/index.d.ts",
-            "import": "./src/index.ts"
-        }
-    }
-}

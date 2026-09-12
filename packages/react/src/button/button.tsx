@@ -1,7 +1,7 @@
 import { forwardRef, type ReactNode } from "react";
 import { Loader2 } from "lucide-react";
 import "./button.css";
-import { ButtonPrimitive, ButtonPrimitiveProps } from "@/src/primitives";
+import { ButtonPrimitive, ButtonPrimitiveProps } from "@scaffold-ds/primitives";
 import type { ButtonVariant, ButtonSize, ButtonRadius } from "./button.types";
 
 interface ButtonProps extends Omit<ButtonPrimitiveProps, "children" | "className"> {

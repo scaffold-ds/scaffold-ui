@@ -1,9 +1,0 @@
-{
-    "name": "@scaffold-ds/primitives",
-    "exports": {
-        ".": {
-            "types": "./src/index.d.ts",
-            "import": "./src/index.ts"
-        }
-    }
-}

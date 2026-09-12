@@ -136,7 +136,7 @@
 }
 
 .button[data-icon][data-size="medium"] {
-    width: calc(var(--space-unit * 9)); /* 2.25rem - 36px */
+    width: calc(var(--space-unit) * 9); /* 2.25rem - 36px */
 }
 
 .button[data-icon][data-size="small"] {
