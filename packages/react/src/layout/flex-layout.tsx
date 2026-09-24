@@ -23,9 +23,9 @@
  */
 
 import { forwardRef, Ref } from "react";
-import { cn } from "../utils/classNames";
 import { resolveEnumClass, resolveResponsiveClass } from "./core/responsive-engine";
 import type { FlexProps } from "./props/flex-props";
+import { cn } from "../../utils/cn";
 
 type DefaultElement = HTMLDivElement;
 

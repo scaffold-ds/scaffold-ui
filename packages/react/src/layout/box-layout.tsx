@@ -23,7 +23,7 @@
  */
 
 import { forwardRef, Ref } from "react";
-import { cn } from "../utils/classNames";
+import { cn } from "../../utils/cn";
 import { resolveEnumClass, resolveResponsiveClass } from "./core/responsive-engine";
 import { BoxProps } from "./props/box-props";
 

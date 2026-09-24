@@ -1,8 +1,8 @@
 :root {
-    --shadow-none: none;
-    --shadow-extraSmall: 0 1px 2px rgb(0 0 0 / 0.05);
-    --shadow-small: 0 1px 3px rgb(0 0 0 / 0.1), 0 1px 2px rgb(0 0 0 / 0.06);
-    --shadow-medium: 0 4px 6px rgb(0 0 0 / 0.1), 0 2px 4px rgb(0 0 0 / 0.06);
-    --shadow-large: 0 10px 15px rgb(0 0 0 / 0.1), 0 4px 6px rgb(0 0 0 / 0.05);
-    --shadow-extraLarge: 0 20px 25px rgb(0 0 0 / 0.1), 0 8px 10px rgb(0 0 0 / 0.04);
+    --shadow-ds-none: none;
+    --shadow-ds-extraSmall: 0 1px 2px rgb(0 0 0 / 0.05);
+    --shadow-ds-small: 0 1px 3px rgb(0 0 0 / 0.1), 0 1px 2px rgb(0 0 0 / 0.06);
+    --shadow-ds-medium: 0 4px 6px rgb(0 0 0 / 0.1), 0 2px 4px rgb(0 0 0 / 0.06);
+    --shadow-ds-large: 0 10px 15px rgb(0 0 0 / 0.1), 0 4px 6px rgb(0 0 0 / 0.05);
+    --shadow-ds-extraLarge: 0 20px 25px rgb(0 0 0 / 0.1), 0 8px 10px rgb(0 0 0 / 0.04);
 }

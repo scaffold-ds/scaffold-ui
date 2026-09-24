@@ -3,16 +3,16 @@
     /* Border Width                                                            */
     /* ---------------------------------------------------------------------- */
 
-    --border-width-none: 0;
-    --border-width-thin: 1px;
-    --border-width-thick: 2px;
+    --border-ds-width-none: 0;
+    --border-ds-width-thin: 1px;
+    --border-ds-width-thick: 2px;
 
     /* ---------------------------------------------------------------------- */
     /* Border Style                                                            */
     /* ---------------------------------------------------------------------- */
 
-    --border-style-solid: solid;
-    --border-style-dashed: dashed;
-    --border-style-dotted: dotted;
-    --border-style-none: none;
+    --border-ds-style-solid: solid;
+    --border-ds-style-dashed: dashed;
+    --border-ds-style-dotted: dotted;
+    --border-ds-style-none: none;
 }

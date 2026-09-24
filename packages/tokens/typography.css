@@ -10,176 +10,176 @@
     /* Heading                                                                */
     /* ---------------------------------------------------------------------- */
 
-    --type-heading-72-family: var(--font-sans);
-    --type-heading-72-size: 4.5rem;
-    --type-heading-72-weight: 400;
-    --type-heading-72-line-height: 4.5rem;
-    --type-heading-72-letter-spacing: -0.27rem;
+    --type-ds-heading-72-family: var(--font-sans);
+    --type-ds-heading-72-size: 4.5rem;
+    --type-ds-heading-72-weight: 400;
+    --type-ds-heading-72-line-height: 4.5rem;
+    --type-ds-heading-72-letter-spacing: -0.27rem;
 
-    --type-heading-64-family: var(--font-sans);
-    --type-heading-64-size: 4rem;
-    --type-heading-64-weight: 400;
-    --type-heading-64-line-height: 4rem;
-    --type-heading-64-letter-spacing: -0.24rem;
+    --type-ds-heading-64-family: var(--font-sans);
+    --type-ds-heading-64-size: 4rem;
+    --type-ds-heading-64-weight: 400;
+    --type-ds-heading-64-line-height: 4rem;
+    --type-ds-heading-64-letter-spacing: -0.24rem;
 
-    --type-heading-56-family: var(--font-sans);
-    --type-heading-56-size: 3.5rem;
-    --type-heading-56-weight: 400;
-    --type-heading-56-line-height: 3.5rem;
-    --type-heading-56-letter-spacing: -0.21rem;
+    --type-ds-heading-56-family: var(--font-sans);
+    --type-ds-heading-56-size: 3.5rem;
+    --type-ds-heading-56-weight: 400;
+    --type-ds-heading-56-line-height: 3.5rem;
+    --type-ds-heading-56-letter-spacing: -0.21rem;
 
-    --type-heading-48-family: var(--font-sans);
-    --type-heading-48-size: 3rem;
-    --type-heading-48-weight: 400;
-    --type-heading-48-line-height: 3.5rem;
-    --type-heading-48-letter-spacing: -0.18rem;
+    --type-ds-heading-48-family: var(--font-sans);
+    --type-ds-heading-48-size: 3rem;
+    --type-ds-heading-48-weight: 400;
+    --type-ds-heading-48-line-height: 3.5rem;
+    --type-ds-heading-48-letter-spacing: -0.18rem;
 
-    --type-heading-40-family: var(--font-sans);
-    --type-heading-40-size: 2.5rem;
-    --type-heading-40-weight: 400;
-    --type-heading-40-line-height: 3rem;
-    --type-heading-40-letter-spacing: -0.15rem;
+    --type-ds-heading-40-family: var(--font-sans);
+    --type-ds-heading-40-size: 2.5rem;
+    --type-ds-heading-40-weight: 400;
+    --type-ds-heading-40-line-height: 3rem;
+    --type-ds-heading-40-letter-spacing: -0.15rem;
 
-    --type-heading-32-family: var(--font-sans);
-    --type-heading-32-size: 2rem;
-    --type-heading-32-weight: 400;
-    --type-heading-32-line-height: 2.5rem;
-    --type-heading-32-letter-spacing: -0.08rem;
+    --type-ds-heading-32-family: var(--font-sans);
+    --type-ds-heading-32-size: 2rem;
+    --type-ds-heading-32-weight: 400;
+    --type-ds-heading-32-line-height: 2.5rem;
+    --type-ds-heading-32-letter-spacing: -0.08rem;
 
-    --type-heading-24-family: var(--font-sans);
-    --type-heading-24-size: 1.5rem;
-    --type-heading-24-weight: 400;
-    --type-heading-24-line-height: 2rem;
-    --type-heading-24-letter-spacing: -0.06rem;
+    --type-ds-heading-24-family: var(--font-sans);
+    --type-ds-heading-24-size: 1.5rem;
+    --type-ds-heading-24-weight: 400;
+    --type-ds-heading-24-line-height: 2rem;
+    --type-ds-heading-24-letter-spacing: -0.06rem;
 
-    --type-heading-20-family: var(--font-mono);
-    --type-heading-20-size: 1.25rem;
-    --type-heading-20-weight: 400;
-    --type-heading-20-line-height: 1.625rem;
-    --type-heading-20-letter-spacing: -0.025rem;
+    --type-ds-heading-20-family: var(--font-mono);
+    --type-ds-heading-20-size: 1.25rem;
+    --type-ds-heading-20-weight: 400;
+    --type-ds-heading-20-line-height: 1.625rem;
+    --type-ds-heading-20-letter-spacing: -0.025rem;
 
-    --type-heading-18-family: var(--font-mono);
-    --type-heading-18-size: 1.125rem;
-    --type-heading-18-weight: 400;
-    --type-heading-18-line-height: 1.25rem;
-    --type-heading-18-letter-spacing: -0.025rem;
+    --type-ds-heading-18-family: var(--font-mono);
+    --type-ds-heading-18-size: 1.125rem;
+    --type-ds-heading-18-weight: 400;
+    --type-ds-heading-18-line-height: 1.25rem;
+    --type-ds-heading-18-letter-spacing: -0.025rem;
 
-    --type-heading-16-family: var(--font-sans);
-    --type-heading-16-size: 1rem;
-    --type-heading-16-weight: 400;
-    --type-heading-16-line-height: 1.5rem;
-    --type-heading-16-letter-spacing: -0.02rem;
+    --type-ds-heading-16-family: var(--font-sans);
+    --type-ds-heading-16-size: 1rem;
+    --type-ds-heading-16-weight: 400;
+    --type-ds-heading-16-line-height: 1.5rem;
+    --type-ds-heading-16-letter-spacing: -0.02rem;
 
-    --type-heading-14-family: var(--font-sans);
-    --type-heading-14-size: 0.875rem;
-    --type-heading-14-weight: 400;
-    --type-heading-14-line-height: 1.25rem;
-    --type-heading-14-letter-spacing: -0.0175rem;
+    --type-ds-heading-14-family: var(--font-sans);
+    --type-ds-heading-14-size: 0.875rem;
+    --type-ds-heading-14-weight: 400;
+    --type-ds-heading-14-line-height: 1.25rem;
+    --type-ds-heading-14-letter-spacing: -0.0175rem;
 
     /* ---------------------------------------------------------------------- */
     /* Button                                                                 */
     /* ---------------------------------------------------------------------- */
 
-    --type-button-16-family: var(--font-mono);
-    --type-button-16-size: 1rem;
-    --type-button-16-weight: 400;
-    --type-button-16-line-height: 1.25rem;
+    --type-ds-button-16-family: var(--font-sans);
+    --type-ds-button-16-size: 1rem;
+    --type-ds-button-16-weight: 400;
+    --type-ds-button-16-line-height: 1.25rem;
 
-    --type-button-14-family: var(--font-mono);
-    --type-button-14-size: 0.875rem;
-    --type-button-14-weight: 400;
-    --type-button-14-line-height: 1.25rem;
+    --type-ds-button-14-family: var(--font-sans);
+    --type-ds-button-14-size: 0.875rem;
+    --type-ds-button-14-weight: 400;
+    --type-ds-button-14-line-height: 1.25rem;
 
-    --type-button-12-family: var(--font-mono);
-    --type-button-12-size: 0.75rem;
-    --type-button-12-weight: 400;
-    --type-button-12-line-height: 1rem;
+    --type-ds-button-12-family: var(--font-sans);
+    --type-ds-button-12-size: 0.75rem;
+    --type-ds-button-12-weight: 400;
+    --type-ds-button-12-line-height: 1rem;
 
     /* ---------------------------------------------------------------------- */
     /* Label                                                                  */
     /* ---------------------------------------------------------------------- */
 
-    --type-label-20-family: var(--font-sans);
-    --type-label-20-size: 1.25rem;
-    --type-label-20-weight: 400;
-    --type-label-20-line-height: 2rem;
+    --type-ds-label-20-family: var(--font-sans);
+    --type-ds-label-20-size: 1.25rem;
+    --type-ds-label-20-weight: 400;
+    --type-ds-label-20-line-height: 2rem;
 
-    --type-label-18-family: var(--font-sans);
-    --type-label-18-size: 1.125rem;
-    --type-label-18-weight: 400;
-    --type-label-18-line-height: 1.25rem;
+    --type-ds-label-18-family: var(--font-sans);
+    --type-ds-label-18-size: 1.125rem;
+    --type-ds-label-18-weight: 400;
+    --type-ds-label-18-line-height: 1.25rem;
 
-    --type-label-16-family: var(--font-sans);
-    --type-label-16-size: 1rem;
-    --type-label-16-weight: 400;
-    --type-label-16-line-height: 1.25rem;
+    --type-ds-label-16-family: var(--font-sans);
+    --type-ds-label-16-size: 1rem;
+    --type-ds-label-16-weight: 400;
+    --type-ds-label-16-line-height: 1.25rem;
 
-    --type-label-14-family: var(--font-sans);
-    --type-label-14-size: 0.875rem;
-    --type-label-14-weight: 400;
-    --type-label-14-line-height: 1.25rem;
+    --type-ds-label-14-family: var(--font-sans);
+    --type-ds-label-14-size: 0.875rem;
+    --type-ds-label-14-weight: 400;
+    --type-ds-label-14-line-height: 1.25rem;
 
-    --type-label-14-mono-family: var(--font-mono);
-    --type-label-14-mono-size: 0.875rem;
-    --type-label-14-mono-weight: 400;
-    --type-label-14-mono-line-height: 1.25rem;
+    --type-ds-label-14-mono-family: var(--font-mono);
+    --type-ds-label-14-mono-size: 0.875rem;
+    --type-ds-label-14-mono-weight: 400;
+    --type-ds-label-14-mono-line-height: 1.25rem;
 
-    --type-label-13-family: var(--font-sans);
-    --type-label-13-size: 0.8125rem;
-    --type-label-13-weight: 400;
-    --type-label-13-line-height: 1rem;
+    --type-ds-label-13-family: var(--font-sans);
+    --type-ds-label-13-size: 0.8125rem;
+    --type-ds-label-13-weight: 400;
+    --type-ds-label-13-line-height: 1rem;
 
-    --type-label-13-mono-family: var(--font-mono);
-    --type-label-13-mono-size: 0.8125rem;
-    --type-label-13-mono-weight: 400;
-    --type-label-13-mono-line-height: 1rem;
+    --type-ds-label-13-mono-family: var(--font-mono);
+    --type-ds-label-13-mono-size: 0.8125rem;
+    --type-ds-label-13-mono-weight: 400;
+    --type-ds-label-13-mono-line-height: 1rem;
 
-    --type-label-12-family: var(--font-sans);
-    --type-label-12-size: 0.75rem;
-    --type-label-12-weight: 400;
-    --type-label-12-line-height: 1rem;
+    --type-ds-label-12-family: var(--font-sans);
+    --type-ds-label-12-size: 0.75rem;
+    --type-ds-label-12-weight: 400;
+    --type-ds-label-12-line-height: 1rem;
 
-    --type-label-12-mono-family: var(--font-mono);
-    --type-label-12-mono-size: 0.75rem;
-    --type-label-12-mono-weight: 400;
-    --type-label-12-mono-line-height: 1rem;
+    --type-ds-label-12-mono-family: var(--font-mono);
+    --type-ds-label-12-mono-size: 0.75rem;
+    --type-ds-label-12-mono-weight: 400;
+    --type-ds-label-12-mono-line-height: 1rem;
 
     /* ---------------------------------------------------------------------- */
     /* Copy                                                                   */
     /* ---------------------------------------------------------------------- */
 
-    --type-copy-24-family: var(--font-sans);
-    --type-copy-24-size: 1.5rem;
-    --type-copy-24-weight: 400;
-    --type-copy-24-line-height: 2.25rem;
+    --type-ds-copy-24-family: var(--font-sans);
+    --type-ds-copy-24-size: 1.5rem;
+    --type-ds-copy-24-weight: 400;
+    --type-ds-copy-24-line-height: 2.25rem;
 
-    --type-copy-20-family: var(--font-sans);
-    --type-copy-20-size: 1.25rem;
-    --type-copy-20-weight: 400;
-    --type-copy-20-line-height: 2.25rem;
+    --type-ds-copy-20-family: var(--font-sans);
+    --type-ds-copy-20-size: 1.25rem;
+    --type-ds-copy-20-weight: 400;
+    --type-ds-copy-20-line-height: 2.25rem;
 
-    --type-copy-18-family: var(--font-sans);
-    --type-copy-18-size: 1.125rem;
-    --type-copy-18-weight: 400;
-    --type-copy-18-line-height: 1.56;
+    --type-ds-copy-18-family: var(--font-sans);
+    --type-ds-copy-18-size: 1.125rem;
+    --type-ds-copy-18-weight: 400;
+    --type-ds-copy-18-line-height: 1.56;
 
-    --type-copy-16-family: var(--font-sans);
-    --type-copy-16-size: 1rem;
-    --type-copy-16-weight: 400;
-    --type-copy-16-line-height: 1.48;
+    --type-ds-copy-16-family: var(--font-sans);
+    --type-ds-copy-16-size: 1rem;
+    --type-ds-copy-16-weight: 400;
+    --type-ds-copy-16-line-height: 1.48;
 
-    --type-copy-14-family: var(--font-sans);
-    --type-copy-14-size: 0.875rem;
-    --type-copy-14-weight: 400;
-    --type-copy-14-line-height: 1.625;
+    --type-ds-copy-14-family: var(--font-sans);
+    --type-ds-copy-14-size: 0.875rem;
+    --type-ds-copy-14-weight: 400;
+    --type-ds-copy-14-line-height: 1.625;
 
-    --type-copy-13-family: var(--font-sans);
-    --type-copy-13-size: 0.8125rem;
-    --type-copy-13-weight: 400;
-    --type-copy-13-line-height: 1.625;
+    --type-ds-copy-13-family: var(--font-sans);
+    --type-ds-copy-13-size: 0.8125rem;
+    --type-ds-copy-13-weight: 400;
+    --type-ds-copy-13-line-height: 1.625;
 
-    --type-copy-13-mono-family: var(--font-mono);
-    --type-copy-13-mono-size: 0.8125rem;
-    --type-copy-13-mono-weight: 400;
-    --type-copy-13-mono-line-height: 1.625;
+    --type-ds-copy-13-mono-family: var(--font-mono);
+    --type-ds-copy-13-mono-size: 0.8125rem;
+    --type-ds-copy-13-mono-weight: 400;
+    --type-ds-copy-13-mono-line-height: 1.625;
 }

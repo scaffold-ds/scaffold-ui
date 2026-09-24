@@ -1,45 +1,45 @@
 :root {
-    --space-unit: 4px; /* 4px */
+    --space-ds-unit: 0.25rem; /* 4px */
 
-    --space-0: 0;
-    --space-1: calc(var(--space-unit) * 0.5);  /* 2px */
-    --space-2: calc(var(--space-unit) * 1);    /* 4px */
-    --space-3: calc(var(--space-unit) * 1.5);  /* 6px */
-    --space-4: calc(var(--space-unit) * 2);    /* 8px */
-    --space-5: calc(var(--space-unit) * 2.5);  /* 10px */
-    --space-6: calc(var(--space-unit) * 3);    /* 12px */
-    --space-7: calc(var(--space-unit) * 3.5);  /* 14px */
-    --space-8: calc(var(--space-unit) * 4);    /* 16px */
-    --space-9: calc(var(--space-unit) * 4.5);  /* 18px */
-    --space-10: calc(var(--space-unit) * 5);   /* 20px */
-    --space-11: calc(var(--space-unit) * 5.5); /* 22px */
-    --space-12: calc(var(--space-unit) * 6);   /* 24px */
-    --space-13: calc(var(--space-unit) * 6.5); /* 26px */
-    --space-14: calc(var(--space-unit) * 7);   /* 28px */
-    --space-15: calc(var(--space-unit) * 7.5); /* 30px */
-    --space-16: calc(var(--space-unit) * 8);   /* 32px */
-    --space-17: calc(var(--space-unit) * 8.5); /* 34px */
-    --space-18: calc(var(--space-unit) * 9);   /* 36px */
-    --space-19: calc(var(--space-unit) * 9.5); /* 38px */
-    --space-20: calc(var(--space-unit) * 10);  /* 40px */
-    --space-21: calc(var(--space-unit) * 10.5);  /* 42px */
-    --space-22: calc(var(--space-unit) * 11);    /* 44px */
-    --space-23: calc(var(--space-unit) * 11.5);  /* 46px */
-    --space-24: calc(var(--space-unit) * 12);    /* 48px */
-    --space-25: calc(var(--space-unit) * 12.5);  /* 50px */
-    --space-26: calc(var(--space-unit) * 13);    /* 52px */
-    --space-27: calc(var(--space-unit) * 13.5);  /* 54px */
-    --space-28: calc(var(--space-unit) * 14);    /* 56px */
-    --space-29: calc(var(--space-unit) * 14.5);  /* 58px */
-    --space-30: calc(var(--space-unit) * 15);   /* 60px */
-    --space-31: calc(var(--space-unit) * 15.5); /* 62px */
-    --space-32: calc(var(--space-unit) * 16);   /* 64px */
-    --space-33: calc(var(--space-unit) * 16.5); /* 66px */
-    --space-44: calc(var(--space-unit) * 17);   /* 68px */
-    --space-35: calc(var(--space-unit) * 17.5); /* 70px */
-    --space-36: calc(var(--space-unit) * 18);   /* 72px */
-    --space-37: calc(var(--space-unit) * 18.5); /* 74px */
-    --space-38: calc(var(--space-unit) * 19);   /* 76px */
-    --space-39: calc(var(--space-unit) * 19.5); /* 78px */
-    --space-40: calc(var(--space-unit) * 20);  /* 80px */
+    --space-ds-0: 0;
+    --space-ds-1: calc(var(--space-ds-unit) * 0.5);  /* 2px */
+    --space-ds-2: calc(var(--space-ds-unit) * 1);    /* 4px */
+    --space-ds-3: calc(var(--space-ds-unit) * 1.5);  /* 6px */
+    --space-ds-4: calc(var(--space-ds-unit) * 2);    /* 8px */
+    --space-ds-5: calc(var(--space-ds-unit) * 2.5);  /* 10px */
+    --space-ds-6: calc(var(--space-ds-unit) * 3);    /* 12px */
+    --space-ds-7: calc(var(--space-ds-unit) * 3.5);  /* 14px */
+    --space-ds-8: calc(var(--space-ds-unit) * 4);    /* 16px */
+    --space-ds-9: calc(var(--space-ds-unit) * 4.5);  /* 18px */
+    --space-ds-10: calc(var(--space-ds-unit) * 5);   /* 20px */
+    --space-ds-11: calc(var(--space-ds-unit) * 5.5); /* 22px */
+    --space-ds-12: calc(var(--space-ds-unit) * 6);   /* 24px */
+    --space-ds-13: calc(var(--space-ds-unit) * 6.5); /* 26px */
+    --space-ds-14: calc(var(--space-ds-unit) * 7);   /* 28px */
+    --space-ds-15: calc(var(--space-ds-unit) * 7.5); /* 30px */
+    --space-ds-16: calc(var(--space-ds-unit) * 8);   /* 32px */
+    --space-ds-17: calc(var(--space-ds-unit) * 8.5); /* 34px */
+    --space-ds-18: calc(var(--space-ds-unit) * 9);   /* 36px */
+    --space-ds-19: calc(var(--space-ds-unit) * 9.5); /* 38px */
+    --space-ds-20: calc(var(--space-ds-unit) * 10);  /* 40px */
+    --space-ds-21: calc(var(--space-ds-unit) * 10.5);  /* 42px */
+    --space-ds-22: calc(var(--space-ds-unit) * 11);    /* 44px */
+    --space-ds-23: calc(var(--space-ds-unit) * 11.5);  /* 46px */
+    --space-ds-24: calc(var(--space-ds-unit) * 12);    /* 48px */
+    --space-ds-25: calc(var(--space-ds-unit) * 12.5);  /* 50px */
+    --space-ds-26: calc(var(--space-ds-unit) * 13);    /* 52px */
+    --space-ds-27: calc(var(--space-ds-unit) * 13.5);  /* 54px */
+    --space-ds-28: calc(var(--space-ds-unit) * 14);    /* 56px */
+    --space-ds-29: calc(var(--space-ds-unit) * 14.5);  /* 58px */
+    --space-ds-30: calc(var(--space-ds-unit) * 15);   /* 60px */
+    --space-ds-31: calc(var(--space-ds-unit) * 15.5); /* 62px */
+    --space-ds-32: calc(var(--space-ds-unit) * 16);   /* 64px */
+    --space-ds-33: calc(var(--space-ds-unit) * 16.5); /* 66px */
+    --space-ds-44: calc(var(--space-ds-unit) * 17);   /* 68px */
+    --space-ds-35: calc(var(--space-ds-unit) * 17.5); /* 70px */
+    --space-ds-36: calc(var(--space-ds-unit) * 18);   /* 72px */
+    --space-ds-37: calc(var(--space-ds-unit) * 18.5); /* 74px */
+    --space-ds-38: calc(var(--space-ds-unit) * 19);   /* 76px */
+    --space-ds-39: calc(var(--space-ds-unit) * 19.5); /* 78px */
+    --space-ds-40: calc(var(--space-ds-unit) * 20);  /* 80px */
 }

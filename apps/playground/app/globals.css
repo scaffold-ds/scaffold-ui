@@ -1,26 +1,124 @@
+@import "@scaffold-ds/tokens/styles.css";
 @import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@source "../../../packages/react/src";
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+    --color-ds-background: var(--background);
+    --color-ds-foreground: var(--foreground);
+
+    --color-ds-surface: var(--card);
+    --color-ds-surface-foreground: var(--card-foreground);
+
+    --color-ds-primary: var(--primary);
+    --color-ds-primary-foreground: var(--primary-foreground);
+
+    --color-ds-secondary: var(--secondary);
+    --color-ds-secondary-foreground: var(--secondary-foreground);
+
+    --color-ds-tertiary: var(--accent);
+    --color-ds-tertiary-foreground: var(--accent-foreground);
+
+    --color-ds-quaternary: var(--popover);
+    --color-ds-quaternary-foreground: var(--popover-foreground);
+
+    --color-ds-muted: var(--muted);
+    --color-ds-muted-foreground: var(--muted-foreground);
+
+    --color-ds-error: var(--destructive);
+    --color-ds-error-foreground: var(--primary-foreground);
+
+    --color-ds-alert: var(--accent);
+    --color-ds-alert-foreground: var(--accent-foreground);
+
+    --color-ds-input: var(--input);
+    --color-ds-ring: var(--ring);
+    --font-sans: var(--font-geist-sans);
+    --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+    --background: oklch(0.985 0 0);
+    --foreground: oklch(0.205 0 0);
+
+    --card: oklch(1 0 0);
+    --card-foreground: oklch(0.205 0 0);
+
+    --popover: oklch(1 0 0);
+    --popover-foreground: oklch(0.205 0 0);
+
+    --primary: oklch(0.205 0 0);
+    --primary-foreground: oklch(0.985 0 0);
+
+    --secondary: oklch(0.97 0 0);
+    --secondary-foreground: oklch(0.205 0 0);
+
+    --muted: oklch(0.97 0 0);
+    --muted-foreground: oklch(0.42 0 0);
+
+    --destructive: oklch(0.577 0.245 27.325);
+
+    --input: oklch(0.94 0 0);
+    --ring: oklch(0.708 0 0);
+
+    --chart-1: oklch(0.87 0 0);
+    --chart-2: oklch(0.556 0 0);
+    --chart-3: oklch(0.439 0 0);
+    --chart-4: oklch(0.371 0 0);
+    --chart-5: oklch(0.269 0 0);
+
+    --radius: 0.625rem;
+
+    --sidebar: oklch(0.985 0 0);
+    --sidebar-foreground: oklch(0.205 0 0);
+    --sidebar-primary: oklch(0.205 0 0);
+    --sidebar-primary-foreground: oklch(0.985 0 0);
+    --sidebar-accent: oklch(0.97 0 0);
+    --sidebar-accent-foreground: oklch(0.205 0 0);
+    --sidebar-border: oklch(0.94 0 0);
+    --sidebar-ring: oklch(0.708 0 0);
+}
+
+.dark {
+    --background: oklch(0.145 0 0);
+    --foreground: oklch(0.985 0 0);
+
+    --card: oklch(0.205 0 0);
+    --card-foreground: oklch(0.985 0 0);
+
+    --popover: oklch(0.205 0 0);
+    --popover-foreground: oklch(0.985 0 0);
+
+    --primary: oklch(0.922 0 0);
+    --primary-foreground: oklch(0.205 0 0);
+
+    --secondary: oklch(0.269 0 0);
+    --secondary-foreground: oklch(0.985 0 0);
+
+    --muted: oklch(0.269 0 0);
+    --muted-foreground: oklch(0.708 0 0);
+
+    --destructive: oklch(0.704 0.191 22.216);
+
+    --input: oklch(1 0 0 / 15%);
+    --ring: oklch(0.556 0 0);
+
+    --chart-1: oklch(0.87 0 0);
+    --chart-2: oklch(0.556 0 0);
+    --chart-3: oklch(0.439 0 0);
+    --chart-4: oklch(0.371 0 0);
+    --chart-5: oklch(0.269 0 0);
+
+    --sidebar: oklch(0.205 0 0);
+    --sidebar-foreground: oklch(0.985 0 0);
+    --sidebar-primary: oklch(0.488 0.243 264.376);
+    --sidebar-primary-foreground: oklch(0.985 0 0);
+    --sidebar-accent: oklch(0.269 0 0);
+    --sidebar-accent-foreground: oklch(0.985 0 0);
+    --sidebar-border: oklch(1 0 0 / 10%);
+    --sidebar-ring: oklch(0.556 0 0);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    background: var(--background);
+    color: var(--foreground);
 }

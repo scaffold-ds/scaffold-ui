@@ -19,6 +19,6 @@
     "forceConsistentCasingInFileNames": true,
     "ignoreDeprecations": "6.0"
   },
-  "include": ["src"],
+  "include": ["packages"],
   "exclude": ["node_modules", "dist"]
 }

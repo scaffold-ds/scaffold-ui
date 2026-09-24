@@ -22,8 +22,8 @@
  * SOFTWARE.
  */
 
+import { ElementPropsWithout, RemovedProps } from '@/packages/react/utils';
 import type { HTMLAttributes, JSX } from 'react';
-import { ElementPropsWithout, RemovedProps } from '../../utils/element-props';
 
 type BaseElement = keyof JSX.IntrinsicElements;
 

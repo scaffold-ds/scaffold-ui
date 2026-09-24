@@ -1,0 +1,9 @@
+{
+    "name": "@scaffold-ds/tokens",
+    "version": "0.0.1",
+    "private": true,
+    "exports": {
+        ".": "./styles.css",
+        "./styles.css": "./styles.css"
+    }
+}

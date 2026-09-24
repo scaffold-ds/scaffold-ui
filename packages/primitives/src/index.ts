@@ -1,1 +1,0 @@
-export { ButtonPrimitive, type ButtonPrimitiveProps } from "./core/button";

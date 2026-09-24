@@ -1,12 +1,17 @@
 {
-  "name": "@scaffold-ds/react",
-  "exports": {
-    ".": {
-      "types": "./src/index.ts",
-      "import": "./src/index.ts"
+    "name": "@scaffold-ds/react",
+    "exports": {
+        ".": {
+            "types": "./src/index.ts",
+            "import": "./src/index.ts"
+        }
+    },
+    
+    "dependencies": {
+        "@scaffold-ds/tokens": "workspace:*"
+    },
+    "devDependencies": {
+        "@tailwindcss/postcss": "^4",
+        "tailwindcss": "^4"
     }
-  },
-  "dependencies": {
-    "@scaffold-ds/primitives": "workspace:*"
-  }
 }

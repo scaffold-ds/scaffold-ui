@@ -1,63 +1,43 @@
-import Image from "next/image";
 import { Button } from "@scaffold-ds/react"
 
 export default function Home() {
-  return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    return (
+        <div className="flex flex-col flex-1 items-start justify-start bg-zinc-50 font-mono">
+            <main className="flex flex-col gap-8 w-full max-w-8xl items-start justify-between py-16 px-16">
+                <div className="inline-flex h-10 rounded-full bg-red-500 px-5 text-white">
+                    Tailwind Test
+                </div>
+                <div className="flex flex-row gap-4 w-fit">
+                    <Button size="large">Default</Button>
+                    <Button variant="outline" size="large">Outline</Button>
+                    <Button variant="tonal" size="large">Tonal</Button>
+                    <Button variant="text" size="large">Text</Button>
+                    <Button variant="elevated" size="large">Elevated</Button>
+                    <Button variant="underline" size="large">Underline</Button>
+                    <Button variant="error" size="large">Error</Button>
+                    <Button variant="alert" size="large">Alert</Button>
+                </div>
+                <div className="flex flex-row gap-4 w-fit">
+                    <Button loading>Default</Button>
+                    <Button variant="outline" loading>Outline</Button>
+                    <Button variant="tonal" loading>Tonal</Button>
+                    <Button variant="text" loading>Text</Button>
+                    <Button variant="elevated" loading>Elevated</Button>
+                    <Button variant="underline" loading>Underline</Button>
+                    <Button variant="error" loading>Error</Button>
+                    <Button variant="alert" loading>Alert</Button>
+                </div>
+                <div className="flex flex-row gap-4 w-fit">
+                    <Button size="small">Default</Button>
+                    <Button variant="outline" size="small">Outline</Button>
+                    <Button variant="tonal" size="small">Tonal</Button>
+                    <Button variant="text" size="small">Text</Button>
+                    <Button variant="elevated" size="small">Elevated</Button>
+                    <Button variant="underline" size="small">Underline</Button>
+                    <Button variant="error" size="small">Error</Button>
+                    <Button variant="alert" size="small">Alert</Button>
+                </div>
+            </main>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <Button variant="default" size="small">hello</Button>
-        </div>
-      </main>
-    </div>
-  );
+    );
 }
