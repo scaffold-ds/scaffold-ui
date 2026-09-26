@@ -1,73 +1,107 @@
+/* Light Theme */
 :root,
 .light,
-.default,
 [data-theme="light"],
 [data-theme="default"],
 :host(.light),
-:host(.default),
 :host([data-theme="light"]),
 :host([data-theme="default"]) {
     color-scheme: light;
+
+    /* Surface */
     --background: var(--color-ds-neutral-0);
     --foreground: var(--color-ds-neutral-950);
 
     --surface: var(--color-ds-neutral-0);
     --surface-foreground: var(--color-ds-neutral-950);
 
+    --muted: var(--color-ds-neutral-100);
+    --muted-foreground: var(--color-ds-neutral-600);
+
+    /* Semantic */
     --primary: var(--color-ds-neutral-950);
     --primary-foreground: var(--color-ds-neutral-25);
 
-    --secondary: var(--color-ds-neutral-0);
+    --secondary: var(--color-ds-neutral-100);
     --secondary-foreground: var(--color-ds-neutral-950);
 
-    --tertiary: var(--color-ds-tertiary);
-    --tertiary-foreground: var(--color-ds-tertiary-foreground);
+    --tertiary: var(--color-ds-neutral-50);
+    --tertiary-foreground: var(--color-ds-neutral-950);
+
+    --accent: var(--color-ds-neutral-100);
+    --accent-foreground: var(--color-ds-neutral-950);
+
+    /* Intent */
+    --info: var(--color-ds-blue-500);
+    --info-foreground: var(--color-ds-neutral-0);
 
     --success: var(--color-ds-green-500);
-    --success-foreground: var(--color-ds-success-foreground);
+    --success-foreground: var(--color-ds-neutral-0);
+
+    --warning: var(--color-ds-amber-500);
+    --warning-foreground: var(--color-ds-neutral-0);
 
     --error: var(--color-ds-red-500);
     --error-foreground: var(--color-ds-neutral-25);
 
-    --warning: var(--color-ds-amber-500);
-    --warning-foreground: var(--color-ds-warning-foreground);
-
-    --border: var(--color-ds-border);
-    --input: var(--color-ds-input);
-    --ring: var(--color-ds-ring);
+    /* Structure */
+    --border: var(--color-ds-neutral-200);
+    --divider: var(--color-ds-neutral-200);
+    --input: var(--color-ds-neutral-300);
+    --ring: var(--color-ds-blue-500);
 }
 
+/* Dark Theme */
 .dark,
 [data-theme="dark"],
 :host(.dark),
 :host([data-theme="dark"]) {
     color-scheme: dark;
-    --background: var(--color-ds-background);
-    --foreground: var(--color-ds-foreground);
 
-    --surface: var(--color-ds-surface);
-    --surface-foreground: var(--color-ds-surface-foreground);
+    /* Surface */
+    --background: var(--color-ds-neutral-950);
+    --foreground: var(--color-ds-neutral-50);
 
-    --primary: var(--color-ds-primary);
-    --primary-foreground: var(--color-ds-primary-foreground);
+    --surface: var(--color-ds-neutral-900);
+    --surface-foreground: var(--color-ds-neutral-50);
 
-    --muted: var(--color-ds-muted);
-    --muted-foreground: var(--color-ds-muted-foreground);
+    --muted: var(--color-ds-neutral-900);
+    --muted-foreground: var(--color-ds-neutral-400);
 
-    --success: var(--color-ds-success);
-    --success-foreground: var(--color-ds-success-foreground);
+    /* Semantic */
+    --primary: var(--color-ds-neutral-50);
+    --primary-foreground: var(--color-ds-neutral-950);
 
-    --error: var(--color-ds-error);
-    --error-foreground: var(--color-ds-error-foreground);
+    --secondary: var(--color-ds-neutral-800);
+    --secondary-foreground: var(--color-ds-neutral-50);
 
-    --warning: var(--color-ds-warning);
-    --warning-foreground: var(--color-ds-warning-foreground);
+    --tertiary: var(--color-ds-neutral-900);
+    --tertiary-foreground: var(--color-ds-neutral-50);
 
-    --border: var(--color-ds-border);
-    --input: var(--color-ds-input);
-    --ring: var(--color-ds-ring);
+    --accent: var(--color-ds-neutral-800);
+    --accent-foreground: var(--color-ds-neutral-50);
+
+    /* Intent */
+    --info: var(--color-ds-blue-400);
+    --info-foreground: var(--color-ds-neutral-950);
+
+    --success: var(--color-ds-green-400);
+    --success-foreground: var(--color-ds-neutral-950);
+
+    --warning: var(--color-ds-amber-400);
+    --warning-foreground: var(--color-ds-neutral-950);
+
+    --error: var(--color-ds-red-400);
+    --error-foreground: var(--color-ds-neutral-950);
+
+    /* Structure */
+    --border: var(--color-ds-neutral-800);
+    --divider: var(--color-ds-neutral-800);
+    --input: var(--color-ds-neutral-700);
+    --ring: var(--color-ds-blue-400);
 }
 
+/* Tailwind */
 @theme inline {
     --color-background: var(--background);
     --color-foreground: var(--foreground);
@@ -75,22 +109,35 @@
     --color-surface: var(--surface);
     --color-surface-foreground: var(--surface-foreground);
 
+    --color-muted: var(--muted);
+    --color-muted-foreground: var(--muted-foreground);
+
     --color-primary: var(--primary);
     --color-primary-foreground: var(--primary-foreground);
 
-    --color-muted: var(--muted);
-    --color-muted-foreground: var(--muted-foreground);
+    --color-secondary: var(--secondary);
+    --color-secondary-foreground: var(--secondary-foreground);
+
+    --color-tertiary: var(--tertiary);
+    --color-tertiary-foreground: var(--tertiary-foreground);
+
+    --color-accent: var(--accent);
+    --color-accent-foreground: var(--accent-foreground);
+
+    --color-info: var(--info);
+    --color-info-foreground: var(--info-foreground);
 
     --color-success: var(--success);
     --color-success-foreground: var(--success-foreground);
 
-    --color-error: var(--error);
-    --color-error-foreground: var(--error-foreground);
-
     --color-warning: var(--warning);
     --color-warning-foreground: var(--warning-foreground);
 
+    --color-error: var(--error);
+    --color-error-foreground: var(--error-foreground);
+
     --color-border: var(--border);
+    --color-divider: var(--divider);
     --color-input: var(--input);
     --color-ring: var(--ring);
 }

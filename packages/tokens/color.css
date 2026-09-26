@@ -1,9 +1,14 @@
 :root {
+    /* Other Colors */
+    --color-ds-transparent: transparent;
+
+    /* Base Colors */
     --color-ds-neutral-0: oklch();
     --color-ds-neutral-25: oklch();
     --color-ds-neutral-975: oklch();
     --color-ds-neutral-1000: oklch();
 
+    /*  Neutral Colors */
     --color-ds-neutral-50: oklch();
     --color-ds-neutral-100: oklch();
     --color-ds-neutral-200: oklch();
@@ -16,6 +21,7 @@
     --color-ds-neutral-900: oklch();
     --color-ds-neutral-950: oklch();
 
+    /*  Red Colors */
     --color-ds-red-50: oklch();
     --color-ds-red-100: oklch();
     --color-ds-red-200: oklch();
@@ -28,6 +34,7 @@
     --color-ds-red-900: oklch();
     --color-ds-red-950: oklch();
 
+    /*  Amber Colors */
     --color-ds-amber-50: oklch();
     --color-ds-amber-100: oklch();
     --color-ds-amber-200: oklch();
@@ -40,6 +47,7 @@
     --color-ds-amber-900: oklch();
     --color-ds-amber-950: oklch();
 
+    /*  Green Colors */
     --color-ds-green-50: oklch();
     --color-ds-green-100: oklch();
     --color-ds-green-200: oklch();
@@ -52,6 +60,7 @@
     --color-ds-green-900: oklch();
     --color-ds-green-950: oklch();
 
+    /*  Teal Colors */
     --color-ds-teal-50: oklch();
     --color-ds-teal-100: oklch();
     --color-ds-teal-200: oklch();
@@ -64,6 +73,7 @@
     --color-ds-teal-900: oklch();
     --color-ds-teal-950: oklch();
 
+    /*  Blue Colors */
     --color-ds-blue-50: oklch();
     --color-ds-blue-100: oklch();
     --color-ds-blue-200: oklch();
@@ -76,6 +86,7 @@
     --color-ds-blue-900: oklch();
     --color-ds-blue-950: oklch();
 
+    /*  Purple Colors */
     --color-ds-purple-50: oklch();
     --color-ds-purple-100: oklch();
     --color-ds-purple-200: oklch();
@@ -88,6 +99,7 @@
     --color-ds-purple-900: oklch();
     --color-ds-purple-950: oklch();
 
+    /*  Pink Colors */
     --color-ds-pink-50: oklch();
     --color-ds-pink-100: oklch();
     --color-ds-pink-200: oklch();
