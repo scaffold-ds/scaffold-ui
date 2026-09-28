@@ -10,9 +10,9 @@
 
     /* Surface */
     --background: var(--color-ds-neutral-0);
-    --foreground: var(--color-ds-neutral-950);
+    --foreground: var(--color-ds-neutral-1000);
 
-    --surface: var(--color-ds-neutral-0);
+    --surface: var(--color-ds-neutral-50);
     --surface-foreground: var(--color-ds-neutral-950);
 
     --muted: var(--color-ds-neutral-100);
@@ -20,7 +20,7 @@
 
     /* Semantic */
     --primary: var(--color-ds-neutral-950);
-    --primary-foreground: var(--color-ds-neutral-25);
+    --primary-foreground: var(--color-ds-neutral-50);
 
     --secondary: var(--color-ds-neutral-100);
     --secondary-foreground: var(--color-ds-neutral-950);
@@ -33,16 +33,16 @@
 
     /* Intent */
     --info: var(--color-ds-blue-500);
-    --info-foreground: var(--color-ds-neutral-0);
+    --info-foreground: var(--color-ds-neutral-50);
 
     --success: var(--color-ds-green-500);
-    --success-foreground: var(--color-ds-neutral-0);
+    --success-foreground: var(--color-ds-neutral-50);
 
-    --warning: var(--color-ds-amber-500);
-    --warning-foreground: var(--color-ds-neutral-0);
+    --warning: var(--color-ds-yellow-500);
+    --warning-foreground: var(--color-ds-neutral-950);
 
     --error: var(--color-ds-red-500);
-    --error-foreground: var(--color-ds-neutral-25);
+    --error-foreground: var(--color-ds-neutral-50);
 
     /* Structure */
     --border: var(--color-ds-neutral-200);
@@ -88,7 +88,7 @@
     --success: var(--color-ds-green-400);
     --success-foreground: var(--color-ds-neutral-950);
 
-    --warning: var(--color-ds-amber-400);
+    --warning: var(--color-ds-yellow-400);
     --warning-foreground: var(--color-ds-neutral-950);
 
     --error: var(--color-ds-red-400);

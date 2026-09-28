@@ -24,5 +24,3 @@
 
 import "./tokens/index.css";
 export * from "./react/index";
-export * from "./hooks/index";
-export * from "./primitives/index";

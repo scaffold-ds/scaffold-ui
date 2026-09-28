@@ -154,13 +154,6 @@ importers:
       '@scaffold-ds/tokens':
         specifier: workspace:*
         version: link:../tokens
-    devDependencies:
-      '@tailwindcss/postcss':
-        specifier: ^4
-        version: 4.3.3
-      tailwindcss:
-        specifier: ^4
-        version: 4.3.3
 
   packages/tokens: {}
 

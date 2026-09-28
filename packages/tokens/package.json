@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "private": true,
     "exports": {
-        ".": "./styles.css",
-        "./styles.css": "./styles.css"
+        ".": "./index.css",
+        "./index.css": "./index.css"
     }
 }

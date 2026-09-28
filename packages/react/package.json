@@ -4,14 +4,10 @@
         ".": {
             "types": "./src/index.ts",
             "import": "./src/index.ts"
-        }
+        },
+        "./styles.css": "./styles.css"
     },
-    
     "dependencies": {
         "@scaffold-ds/tokens": "workspace:*"
-    },
-    "devDependencies": {
-        "@tailwindcss/postcss": "^4",
-        "tailwindcss": "^4"
     }
 }

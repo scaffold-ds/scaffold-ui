@@ -3,112 +3,110 @@
     --color-ds-transparent: transparent;
 
     /* Base Colors */
-    --color-ds-neutral-0: oklch();
-    --color-ds-neutral-25: oklch();
-    --color-ds-neutral-975: oklch();
-    --color-ds-neutral-1000: oklch();
+    --color-ds-base-0: oklch(1 0 0);
+    --color-ds-base-1000: oklch(0 0 0);
 
-    /*  Neutral Colors */
-    --color-ds-neutral-50: oklch();
-    --color-ds-neutral-100: oklch();
-    --color-ds-neutral-200: oklch();
-    --color-ds-neutral-300: oklch();
-    --color-ds-neutral-400: oklch();
-    --color-ds-neutral-500: oklch();
-    --color-ds-neutral-600: oklch();
-    --color-ds-neutral-700: oklch();
-    --color-ds-neutral-800: oklch();
-    --color-ds-neutral-900: oklch();
-    --color-ds-neutral-950: oklch();
+    /* Neutral Colors */
+    --color-ds-neutral-50: oklch(0.985 0 0);
+    --color-ds-neutral-100: oklch(0.950 0 0);
+    --color-ds-neutral-200: oklch(0.900 0 0);
+    --color-ds-neutral-300: oklch(0.835 0 0);
+    --color-ds-neutral-400: oklch(0.735 0 0);
+    --color-ds-neutral-500: oklch(0.555 0 0);
+    --color-ds-neutral-600: oklch(0.470 0 0);
+    --color-ds-neutral-700: oklch(0.385 0 0);
+    --color-ds-neutral-800: oklch(0.300 0 0);
+    --color-ds-neutral-900: oklch(0.220 0 0);
+    --color-ds-neutral-950: oklch(0.145 0 0);
 
-    /*  Red Colors */
-    --color-ds-red-50: oklch();
-    --color-ds-red-100: oklch();
-    --color-ds-red-200: oklch();
-    --color-ds-red-300: oklch();
-    --color-ds-red-400: oklch();
-    --color-ds-red-500: oklch();
-    --color-ds-red-600: oklch();
-    --color-ds-red-700: oklch();
-    --color-ds-red-800: oklch();
-    --color-ds-red-900: oklch();
-    --color-ds-red-950: oklch();
+    /* Red Colors */
+    --color-ds-red-50: oklch(0.970 0.013 25);
+    --color-ds-red-100: oklch(0.940 0.026 25);
+    --color-ds-red-200: oklch(0.885 0.053 25);
+    --color-ds-red-300: oklch(0.810 0.092 25);
+    --color-ds-red-400: oklch(0.720 0.153 25);
+    --color-ds-red-500: oklch(0.630 0.210 25);
+    --color-ds-red-600: oklch(0.555 0.201 25);
+    --color-ds-red-700: oklch(0.475 0.179 25);
+    --color-ds-red-800: oklch(0.385 0.144 25);
+    --color-ds-red-900: oklch(0.300 0.109 25);
+    --color-ds-red-950: oklch(0.220 0.079 25);
 
-    /*  Amber Colors */
-    --color-ds-amber-50: oklch();
-    --color-ds-amber-100: oklch();
-    --color-ds-amber-200: oklch();
-    --color-ds-amber-300: oklch();
-    --color-ds-amber-400: oklch();
-    --color-ds-amber-500: oklch();
-    --color-ds-amber-600: oklch();
-    --color-ds-amber-700: oklch();
-    --color-ds-amber-800: oklch();
-    --color-ds-amber-900: oklch();
-    --color-ds-amber-950: oklch();
+    /* Yellow Colors */
+    --color-ds-yellow-50: oklch(0.985 0.014 85);
+    --color-ds-yellow-100: oklch(0.965 0.030 85);
+    --color-ds-yellow-200: oklch(0.925 0.052 85);
+    --color-ds-yellow-300: oklch(0.875 0.080 85);
+    --color-ds-yellow-400: oklch(0.830 0.115 85);
+    --color-ds-yellow-500: oklch(0.795 0.145 85);
+    --color-ds-yellow-600: oklch(0.730 0.135 85);
+    --color-ds-yellow-700: oklch(0.640 0.120 85);
+    --color-ds-yellow-800: oklch(0.535 0.100 85);
+    --color-ds-yellow-900: oklch(0.425 0.080 85);
+    --color-ds-yellow-950: oklch(0.340 0.060 85);
 
-    /*  Green Colors */
-    --color-ds-green-50: oklch();
-    --color-ds-green-100: oklch();
-    --color-ds-green-200: oklch();
-    --color-ds-green-300: oklch();
-    --color-ds-green-400: oklch();
-    --color-ds-green-500: oklch();
-    --color-ds-green-600: oklch();
-    --color-ds-green-700: oklch();
-    --color-ds-green-800: oklch();
-    --color-ds-green-900: oklch();
-    --color-ds-green-950: oklch();
+    /* Green Colors */
+    --color-ds-green-50: oklch(0.970 0.025 145);
+    --color-ds-green-100: oklch(0.945 0.040 145);
+    --color-ds-green-200: oklch(0.900 0.065 145);
+    --color-ds-green-300: oklch(0.835 0.100 145);
+    --color-ds-green-400: oklch(0.745 0.145 145);
+    --color-ds-green-500: oklch(0.650 0.180 145);
+    --color-ds-green-600: oklch(0.575 0.170 145);
+    --color-ds-green-700: oklch(0.500 0.150 145);
+    --color-ds-green-800: oklch(0.430 0.125 145);
+    --color-ds-green-900: oklch(0.375 0.095 145);
+    --color-ds-green-950: oklch(0.340 0.070 145);
 
-    /*  Teal Colors */
-    --color-ds-teal-50: oklch();
-    --color-ds-teal-100: oklch();
-    --color-ds-teal-200: oklch();
-    --color-ds-teal-300: oklch();
-    --color-ds-teal-400: oklch();
-    --color-ds-teal-500: oklch();
-    --color-ds-teal-600: oklch();
-    --color-ds-teal-700: oklch();
-    --color-ds-teal-800: oklch();
-    --color-ds-teal-900: oklch();
-    --color-ds-teal-950: oklch();
+    /* Teal Colors */
+    --color-ds-teal-50: oklch(0.970 0.025 180);
+    --color-ds-teal-100: oklch(0.945 0.040 180);
+    --color-ds-teal-200: oklch(0.900 0.060 180);
+    --color-ds-teal-300: oklch(0.835 0.095 180);
+    --color-ds-teal-400: oklch(0.745 0.130 180);
+    --color-ds-teal-500: oklch(0.650 0.095 180);
+    --color-ds-teal-600: oklch(0.575 0.095 180);
+    --color-ds-teal-700: oklch(0.500 0.085 180);
+    --color-ds-teal-800: oklch(0.430 0.070 180);
+    --color-ds-teal-900: oklch(0.375 0.060 180);
+    --color-ds-teal-950: oklch(0.340 0.055 180);
 
-    /*  Blue Colors */
-    --color-ds-blue-50: oklch();
-    --color-ds-blue-100: oklch();
-    --color-ds-blue-200: oklch();
-    --color-ds-blue-300: oklch();
-    --color-ds-blue-400: oklch();
-    --color-ds-blue-500: oklch();
-    --color-ds-blue-600: oklch();
-    --color-ds-blue-700: oklch();
-    --color-ds-blue-800: oklch();
-    --color-ds-blue-900: oklch();
-    --color-ds-blue-950: oklch();
+    /* Blue Colors */
+    --color-ds-blue-50: oklch(0.970 0.014 255);
+    --color-ds-blue-100: oklch(0.945 0.024 255);
+    --color-ds-blue-200: oklch(0.900 0.044 255);
+    --color-ds-blue-300: oklch(0.835 0.075 255);
+    --color-ds-blue-400: oklch(0.735 0.120 255);
+    --color-ds-blue-500: oklch(0.620 0.200 255);
+    --color-ds-blue-600: oklch(0.545 0.155 255);
+    --color-ds-blue-700: oklch(0.470 0.145 255);
+    --color-ds-blue-800: oklch(0.400 0.120 255);
+    --color-ds-blue-900: oklch(0.345 0.095 255);
+    --color-ds-blue-950: oklch(0.300 0.080 255);
 
-    /*  Purple Colors */
-    --color-ds-purple-50: oklch();
-    --color-ds-purple-100: oklch();
-    --color-ds-purple-200: oklch();
-    --color-ds-purple-300: oklch();
-    --color-ds-purple-400: oklch();
-    --color-ds-purple-500: oklch();
-    --color-ds-purple-600: oklch();
-    --color-ds-purple-700: oklch();
-    --color-ds-purple-800: oklch();
-    --color-ds-purple-900: oklch();
-    --color-ds-purple-950: oklch();
+    /* Purple Colors */
+    --color-ds-purple-50: oklch(0.970 0.018 310);
+    --color-ds-purple-100: oklch(0.945 0.030 310);
+    --color-ds-purple-200: oklch(0.900 0.060 310);
+    --color-ds-purple-300: oklch(0.835 0.100 310);
+    --color-ds-purple-400: oklch(0.735 0.150 310);
+    --color-ds-purple-500: oklch(0.620 0.190 310);
+    --color-ds-purple-600: oklch(0.545 0.180 310);
+    --color-ds-purple-700: oklch(0.470 0.160 310);
+    --color-ds-purple-800: oklch(0.400 0.135 310);
+    --color-ds-purple-900: oklch(0.345 0.105 310);
+    --color-ds-purple-950: oklch(0.300 0.080 310);
 
-    /*  Pink Colors */
-    --color-ds-pink-50: oklch();
-    --color-ds-pink-100: oklch();
-    --color-ds-pink-200: oklch();
-    --color-ds-pink-300: oklch();
-    --color-ds-pink-400: oklch();
-    --color-ds-pink-500: oklch();
-    --color-ds-pink-600: oklch();
-    --color-ds-pink-700: oklch();
-    --color-ds-pink-800: oklch();
-    --color-ds-pink-900: oklch();
-    --color-ds-pink-950: oklch();
+    /* Pink Colors */
+    --color-ds-pink-50: oklch(0.970 0.014 365);
+    --color-ds-pink-100: oklch(0.945 0.024 365);
+    --color-ds-pink-200: oklch(0.900 0.048 365);
+    --color-ds-pink-300: oklch(0.835 0.085 365);
+    --color-ds-pink-400: oklch(0.745 0.155 365);
+    --color-ds-pink-500: oklch(0.650 0.195 365);
+    --color-ds-pink-600: oklch(0.575 0.185 365);
+    --color-ds-pink-700: oklch(0.500 0.165 365);
+    --color-ds-pink-800: oklch(0.425 0.140 365);
+    --color-ds-pink-900: oklch(0.365 0.105 365);
+    --color-ds-pink-950: oklch(0.320 0.080 365);
 }

@@ -37,7 +37,7 @@ const buttonVariants = cva(
         variants: {
             variant: {
                 default: [
-                    "bg-primary text-primary-foreground",
+                    "bg-primary text-[color:var(--primary-foreground)]",
                     "hover:bg-primary/90",
                     "active:bg-primary/90",
                 ],
@@ -47,17 +47,16 @@ const buttonVariants = cva(
                     "bg-surface text-surface-foreground",
                     "hover:bg-muted",
                     "active:bg-muted",
-                    "[&_svg]:text-muted-foreground",
                 ],
 
                 tonal: [
-                    "bg-muted text-foreground",
-                    "hover:bg-muted",
-                    "active:bg-muted",
+                    "bg-secondary text-secondary-foreground",
+                    "hover:bg-secondary/80",
+                    "active:bg-secondary/80",
                 ],
 
                 text: [
-                    "bg-transparent text-foreground",
+                    "bg-tertiary text-tertiary-foreground",
                     "hover:bg-muted",
                     "active:bg-muted",
                 ],
@@ -78,14 +77,14 @@ const buttonVariants = cva(
 
                 error: [
                     "bg-error text-error-foreground",
-                    "hover:bg-error/80",
-                    "active:bg-error/80",
+                    "hover:bg-error/90",
+                    "active:bg-error/90",
                 ],
 
                 warning: [
-                    "bg-warning text-warning-foreground",
-                    "hover:bg-warning/80",
-                    "active:bg-warning/80",
+                    "bg-warning text-[color:var(--warning-foreground)]",
+                    "hover:bg-warning/90",
+                    "active:bg-warning/90",
                 ],
             },
 
@@ -94,7 +93,7 @@ const buttonVariants = cva(
                     "h-8",
                     "gap-1.5",
                     "px-3",
-                    "text-[var(--type-ds-button-12-size)]",
+                    "text-[length:var(--type-ds-button-12-size)]",
                     "font-[var(--type-ds-button-12-weight)]",
                     "leading-[var(--type-ds-button-12-line-height)]",
                     "[&_svg]:size-[var(--type-ds-button-12-size)]",
@@ -104,7 +103,7 @@ const buttonVariants = cva(
                     "h-9",
                     "gap-2",
                     "px-4.5",
-                    "text-[var(--type-ds-button-14-size)]",
+                    "text-[length:var(--type-ds-button-14-size)]",
                     "font-[var(--type-ds-button-14-weight)]",
                     "leading-[var(--type-ds-button-14-line-height)]",
                     "[&_svg]:size-[var(--type-ds-button-14-size)]",
@@ -114,7 +113,7 @@ const buttonVariants = cva(
                     "h-10",
                     "gap-3",
                     "px-5",
-                    "text-[var(--type-ds-button-16-size)]",
+                    "text-[length:var(--type-ds-button-16-size)]",
                     "font-[var(--type-ds-button-16-weight)]",
                     "leading-[var(--type-ds-button-16-line-height)]",
                     "[&_svg]:size-[var(--type-ds-button-16-size)]",

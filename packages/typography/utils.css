@@ -1,154 +1,186 @@
 @layer utilities {
     .text-heading-72 {
-        font-family: var(--font-sans);
-        font-size: 72px;
-        line-height: 72px;
-        letter-spacing: -4.32px;
+        font-family: var(--type-ds-heading-72-family);
+        font-size: var(--type-ds-heading-72-size);
+        font-weight: var(--type-ds-heading-72-weight);
+        line-height: var(--type-ds-heading-72-line-height);
+        letter-spacing: var(--type-ds-heading-72-letter-spacing);
     }
 
     .text-heading-64 {
-        font-family: var(--font-sans);
-        font-size: 64px;
-        line-height: 64px;
-        letter-spacing: -3.84px;
+        font-family: var(--type-ds-heading-64-family);
+        font-size: var(--type-ds-heading-64-size);
+        font-weight: var(--type-ds-heading-64-weight);
+        line-height: var(--type-ds-heading-64-line-height);
+        letter-spacing: var(--type-ds-heading-64-letter-spacing);
     }
 
     .text-heading-56 {
-        font-family: var(--font-sans);
-        font-size: 56px;
-        line-height: 56px;
-        letter-spacing: -3.36px;
+        font-family: var(--type-ds-heading-56-family);
+        font-size: var(--type-ds-heading-56-size);
+        font-weight: var(--type-ds-heading-56-weight);
+        line-height: var(--type-ds-heading-56-line-height);
+        letter-spacing: var(--type-ds-heading-56-letter-spacing);
     }
 
     .text-heading-48 {
-        font-family: var(--font-sans);
-        font-size: 48px;
-        line-height: 56px;
-        letter-spacing: -2.88px;
+        font-family: var(--type-ds-heading-48-family);
+        font-size: var(--type-ds-heading-48-size);
+        font-weight: var(--type-ds-heading-48-weight);
+        line-height: var(--type-ds-heading-48-line-height);
+        letter-spacing: var(--type-ds-heading-48-letter-spacing);
     }
 
     .text-heading-40 {
-        font-family: var(--font-sans);
-        font-size: 40px;
-        line-height: 48px;
-        letter-spacing: -2.4px;
+        font-family: var(--type-ds-heading-40-family);
+        font-size: var(--type-ds-heading-40-size);
+        font-weight: var(--type-ds-heading-40-weight);
+        line-height: var(--type-ds-heading-40-line-height);
+        letter-spacing: var(--type-ds-heading-40-letter-spacing);
     }
 
     .text-heading-32 {
-        font-family: var(--font-sans);
-        font-size: 32px;
-        line-height: 40px;
-        letter-spacing: -1.28px;
+        font-family: var(--type-ds-heading-32-family);
+        font-size: var(--type-ds-heading-32-size);
+        font-weight: var(--type-ds-heading-32-weight);
+        line-height: var(--type-ds-heading-32-line-height);
+        letter-spacing: var(--type-ds-heading-32-letter-spacing);
     }
 
     .text-heading-24 {
-        font-family: var(--font-sans);
-        font-size: 24px;
-        line-height: 32px;
-        letter-spacing: -0.96px;
+        font-family: var(--type-ds-heading-24-family);
+        font-size: var(--type-ds-heading-24-size);
+        font-weight: var(--type-ds-heading-24-weight);
+        line-height: var(--type-ds-heading-24-line-height);
+        letter-spacing: var(--type-ds-heading-24-letter-spacing);
     }
 
     .text-heading-20 {
-        font-family: var(--font-geist-mono);
-        font-size: 20px;
-        line-height: 26px;
-        letter-spacing: -0.4px;
+        font-family: var(--type-ds-heading-20-family);
+        font-size: var(--type-ds-heading-20-size);
+        font-weight: var(--type-ds-heading-20-weight);
+        line-height: var(--type-ds-heading-20-line-height);
+        letter-spacing: var(--type-ds-heading-20-letter-spacing);
     }
 
     .text-heading-18 {
-        font-family: var(--font-geist-mono);
-        font-size: 18px;
-        line-height: 20px;
-        letter-spacing: -0.4px;
+        font-family: var(--type-ds-heading-18-family);
+        font-size: var(--type-ds-heading-18-size);
+        font-weight: var(--type-ds-heading-18-weight);
+        line-height: var(--type-ds-heading-18-line-height);
+        letter-spacing: var(--type-ds-heading-18-letter-spacing);
     }
 
     .text-heading-16 {
-        font-family: var(--font-sans);
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: -0.32px;
+        font-family: var(--type-ds-heading-16-family);
+        font-size: var(--type-ds-heading-16-size);
+        font-weight: var(--type-ds-heading-16-weight);
+        line-height: var(--type-ds-heading-16-line-height);
+        letter-spacing: var(--type-ds-heading-16-letter-spacing);
     }
 
     .text-heading-14 {
-        font-family: var(--font-sans);
-        font-size: 14px;
-        line-height: 20px;
-        letter-spacing: -0.28px;
+        font-family: var(--type-ds-heading-14-family);
+        font-size: var(--type-ds-heading-14-size);
+        font-weight: var(--type-ds-heading-14-weight);
+        line-height: var(--type-ds-heading-14-line-height);
+        letter-spacing: var(--type-ds-heading-14-letter-spacing);
     }
 
     .text-button-16 {
-        font-family: var(--font-geist-mono);
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 20px;
+        font-family: var(--type-ds-button-16-family);
+        font-size: var(--type-ds-button-16-size);
+        font-weight: var(--type-ds-button-16-weight);
+        line-height: var(--type-ds-button-16-line-height);
+        letter-spacing: var(--type-ds-button-16-letter-spacing);
     }
 
     .text-button-14 {
-        font-family: var(--font-geist-mono);
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 20px;
+        font-family: var(--type-ds-button-14-family);
+        font-size: var(--type-ds-button-14-size);
+        font-weight: var(--type-ds-button-14-weight);
+        line-height: var(--type-ds-button-14-line-height);
+        letter-spacing: var(--type-ds-button-14-letter-spacing);
     }
 
     .text-button-12 {
-        font-family: var(--font-geist-mono);
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 16px;
+        font-family: var(--type-ds-button-12-family);
+        font-size: var(--type-ds-button-12-size);
+        font-weight: var(--type-ds-button-12-weight);
+        line-height: var(--type-ds-button-12-line-height);
+        letter-spacing: var(--type-ds-button-12-letter-spacing);
     }
 
     .text-label-20 {
-        font-family: var(--font-sans);
-        font-size: 20px;
-        line-height: 32px;
+        font-family: var(--type-ds-label-20-family);
+        font-size: var(--type-ds-label-20-size);
+        font-weight: var(--type-ds-label-20-weight);
+        line-height: var(--type-ds-label-20-line-height);
+        letter-spacing: var(--type-ds-label-20-letter-spacing);
     }
 
     .text-label-18 {
-        font-family: var(--font-sans);
-        font-size: 18px;
-        line-height: 20px;
+        font-family: var(--type-ds-label-18-family);
+        font-size: var(--type-ds-label-18-size);
+        font-weight: var(--type-ds-label-18-weight);
+        line-height: var(--type-ds-label-18-line-height);
+        letter-spacing: var(--type-ds-label-18-letter-spacing);
     }
 
     .text-label-16 {
-        font-family: var(--font-sans);
-        font-size: 16px;
-        line-height: 20px;
+        font-family: var(--type-ds-label-16-family);
+        font-size: var(--type-ds-label-16-size);
+        font-weight: var(--type-ds-label-16-weight);
+        line-height: var(--type-ds-label-16-line-height);
+        letter-spacing: var(--type-ds-label-16-letter-spacing);
     }
 
     .text-label-14 {
-        font-family: var(--font-sans);
-        font-size: 14px;
-        line-height: 20px;
+        font-family: var(--type-ds-label-14-family);
+        font-size: var(--type-ds-label-14-size);
+        font-weight: var(--type-ds-label-14-weight);
+        line-height: var(--type-ds-label-14-line-height);
+        letter-spacing: var(--type-ds-label-14-letter-spacing);
     }
 
     .text-label-14-mono {
-        font-family: var(--font-geist-mono);
-        font-size: 14px;
-        line-height: 20px;
+        font-family: var(--type-ds-label-14-mono-family);
+        font-size: var(--type-ds-label-14-mono-size);
+        font-weight: var(--type-ds-label-14-mono-weight);
+        line-height: var(--type-ds-label-14-mono-line-height);
+        letter-spacing: var(--type-ds-label-14-mono-letter-spacing);
     }
 
     .text-label-13 {
-        font-family: var(--font-sans);
-        font-size: 13px;
-        line-height: 16px;
+        font-family: var(--type-ds-label-13-family);
+        font-size: var(--type-ds-label-13-size);
+        font-weight: var(--type-ds-label-13-weight);
+        line-height: var(--type-ds-label-13-line-height);
+        letter-spacing: var(--type-ds-label-13-letter-spacing);
     }
 
     .text-label-13-mono {
-        font-family: var(--font-geist-mono);
-        font-size: 13px;
-        line-height: 16px;
+        font-family: var(--type-ds-label-13-mono-family);
+        font-size: var(--type-ds-label-13-mono-size);
+        font-weight: var(--type-ds-label-13-mono-weight);
+        line-height: var(--type-ds-label-13-mono-line-height);
+        letter-spacing: var(--type-ds-label-13-mono-letter-spacing);
     }
 
     .text-label-12 {
-        font-family: var(--font-sans);
-        font-size: 12px;
-        line-height: 16px;
+        font-family: var(--type-ds-label-12-family);
+        font-size: var(--type-ds-label-12-size);
+        font-weight: var(--type-ds-label-12-weight);
+        line-height: var(--type-ds-label-12-line-height);
+        letter-spacing: var(--type-ds-label-12-letter-spacing);
     }
 
     .text-label-12-mono {
-        font-family: var(--font-geist-mono);
-        font-size: 12px;
-        line-height: 16px;
+        font-family: var(--type-ds-label-12-mono-family);
+        font-size: var(--type-ds-label-12-mono-size);
+        font-weight: var(--type-ds-label-12-mono-weight);
+        line-height: var(--type-ds-label-12-mono-line-height);
+        letter-spacing: var(--type-ds-label-12-mono-letter-spacing);
     }
 
     .text-copy-24 {
